@@ -1,4 +1,7 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
+/*
+ * Teaser Block
+ * Recreate an teaser
+ */
 
 export default function decorate(block) {
   [...block.children].forEach((row) => {
